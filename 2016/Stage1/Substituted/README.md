@@ -7,4 +7,4 @@ análise de frequência no texto fornecido, acreditando que o idioma utilizado n
 texto original foi o inglês. Utilizando um sover, como o [dessa página](https://www.guballa.de/substitution-solver), 
 o final texto decifrado continha a flag.
 
-IceCTF{always_listen_to_your_substitute_flags}.
+IceCTF{always_listen_to_your_substitute_flags}
